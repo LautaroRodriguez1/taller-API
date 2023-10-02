@@ -1,0 +1,100 @@
+body {
+    background-image: url(mundo.avif);
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #212529;
+  }
+
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #212529;
+  }
+  
+  #desc {
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+  }
+  
+  p {
+    text-align: left;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  a {
+    color: #0000ff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #ff0000;
+    text-decoration: underline;
+  }
+  
+  button {
+    background-color: #0000ff;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+ #pais-input {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+    font-family: sans-serif;
+ }
+
+  button:hover {
+    background-color: #69c083;
+  }
+  
+  .page-container {
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+    height: fit-content;
+    font-family: 'Roboto Mono', monospace;
+    max-width: 380px;
+    border-radius: 4px;
+    color: #000;
+    text-align:center;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #ffffffbd;
+    border: 1px solid black;
+  }
+  
+  .pais-info {
+    border: 1px solid #0000ff;
+    padding: 20px;
+    width: 600px;
+    margin: 0 auto;  
+  }
+  
+  .pais-nombre {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .pais-capital {
+    font-size: 16px;
+  }
+  
+  .pais-poblacion {
+    font-size: 16px;
+  }
+  
+  .pais-area {
+    font-size: 16px;
+  }

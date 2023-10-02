@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información de País</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body><br><br><br>
+    <p id="desc">Esta página web se puede usar para obtener información de países.</p>
+    <p id="desc">El usuario puede ingresar el nombre de un país en el campo de entrada y la página web mostrará información sobre ese país, como el nombre, la capital, la población y el área.</p>
+    <p id="desc">Es útil para las personas que están interesadas en aprender más sobre otros países.</p>
+    <div id="image"></div>
+    <div class="page-container">
+        <h1>Información del país</h1>
+        <div>
+            <label for="pais-input">Ingresa el nombre de un país:</label> <br>
+            <br>
+            <input type="text" id="pais-input" placeholder="Nombre de algún país">
+        </div><br>
+
+        <button id="get-pais-info">Obtener Información</button><hr>
+
+        <div id="pais-info"> <br>
+            <p>Nombre: <span id="pais-nombre"></span></p> 
+            <p>Capital: <span id="pais-capital"></span></p> 
+            <p>Población: <span id="pais-poblacion"></span></p> 
+            <p>Área: <span id="pais-area"></span> km²</p> 
+        </div>
+    </div>
+    <p></p>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
